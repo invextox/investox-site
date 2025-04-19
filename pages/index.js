@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/hero';
 import WhyInvestox from '../components/whyInvestox';
 import Features from '../components/Features';
+import CallToAction from '../components/CallToAction';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <WhyInvestox />
       <Features />
+      <CallToAction />
     </>
   );
 }
