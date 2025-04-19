@@ -3,47 +3,35 @@ export default function Hero() {
     <section style={{
       backgroundColor: '#000000',
       color: '#ffffff',
-      padding: '80px 20px',
+      padding: '40px 20px',
       display: 'flex',
-      flexDirection: 'row',
+      flexDirection: 'column',
       alignItems: 'center',
-      justifyContent: 'space-between',
-      flexWrap: 'wrap'
+      textAlign: 'center'
     }}>
-      <div style={{ flex: 1, maxWidth: '600px' }}>
-        <h2 style={{
-          fontSize: '2.5em',
-          marginBottom: '20px'
-        }}>
-          The future of DeFi investing<br />Connect your wallet and start earning.
-        </h2>
-        <button style={{
-          marginTop: '30px',
-          padding: '12px 24px',
-          fontSize: '16px',
-          backgroundColor: '#0066ff',
-          color: '#fff',
-          border: 'none',
-          borderRadius: '6px',
-          cursor: 'pointer'
-        }}>
-          Connect Wallet
-        </button>
-      </div>
+      <h1 style={{
+        fontSize: '3em',
+        marginBottom: '20px',
+        color: '#ffffff'
+      }}>
+        Welcome to Investox.io
+      </h1>
 
       <div style={{
-        flex: 1,
-        textAlign: 'center',
-        marginTop: '40px',
-        width: '100%'
+        width: '100%',
+        maxWidth: '900px',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginTop: '60px',
+        flexWrap: 'wrap'
       }}>
-        <h1 style={{
-          fontSize: '3em',
-          marginBottom: '0',
-          color: '#ffffff'
-        }}>
-          Welcome to Investox.io
-        </h1>
+        <div style={{ flex: 1, textAlign: 'left', minWidth: '300px' }}>
+          <h2 style={{ fontSize: '2em', lineHeight: '1.4' }}>
+            The future of DeFi investing<br />
+            Connect your wallet and start earning.
+          </h2>
+        </div>
       </div>
     </section>
   );
