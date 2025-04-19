@@ -6,3 +6,4 @@ export default function Home() {
       <button style={{ padding: '10px 20px', marginTop: '20px' }}>Connect MetaMask</button>
     </div>
   );
+}
