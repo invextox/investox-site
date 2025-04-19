@@ -1,19 +1,19 @@
 export default function Features() {
   return (
     <section style={{ padding: '60px 20px', background: '#fff', textAlign: 'center' }}>
-      <h2 style={{ fontSize: '32px', marginBottom: '40px' }}>Key Features</h2>
+      <h2 style={{ fontSize: '2.5em', marginBottom: '30px' }}>Platform Highlights</h2>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '40px', flexWrap: 'wrap' }}>
         <div style={{ maxWidth: '300px' }}>
-          <h3>Auto Yield Farming</h3>
-          <p>Investox automatically finds the best farming opportunities to maximize your returns.</p>
+          <h3>Smart Yield Engine</h3>
+          <p>Advanced algorithms to optimize your DeFi returns automatically.</p>
         </div>
         <div style={{ maxWidth: '300px' }}>
-          <h3>Non-Custodial</h3>
-          <p>Your crypto stays in your wallet. You stay in control — always.</p>
+          <h3>Full Transparency</h3>
+          <p>Track every transaction with full visibility and smart contract logic.</p>
         </div>
         <div style={{ maxWidth: '300px' }}>
-          <h3>Community Driven</h3>
-          <p>Governance is controlled by token holders. Every voice counts.</p>
+          <h3>Referral System</h3>
+          <p>Invite friends and earn extra rewards with our unique token incentive model.</p>
         </div>
       </div>
     </section>
