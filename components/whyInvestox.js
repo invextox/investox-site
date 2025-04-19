@@ -1,11 +1,21 @@
 export default function WhyInvestox() {
   return (
-    <section style={{ backgroundColor: '#000', color: '#fff', padding: '60px 20px', textAlign: 'center' }}>
-      <h2>Why Investox?</h2>
-      <p>
-        Investox.io is the next-generation DeFi platform that enables you to earn yield easily and securely.
-        Our smart contracts automatically harvest the best returns while ensuring full transparency and control.
-      </p>
-    </section>
+    <div style={{
+      padding: '40px 80px',
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'center'
+    }}>
+      <div>
+        <h2>Why Investox?</h2>
+        <p>Automated Yield Optimization</p>
+        <p>No Middlemen. Full Transparency</p>
+      </div>
+      <div>
+        <h3>Total Balance</h3>
+        <p style={{ fontSize: '2em', color: '#00bfff' }}>$10,250.75</p>
+        <small style={{ color: '#aaa' }}>Earnings growth over time</small>
+      </div>
+    </div>
   );
 }
