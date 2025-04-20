@@ -1,21 +1,23 @@
 export default function Hero() {
   return (
     <div style={{
+      padding: '60px 20px',
       display: 'flex',
-      justifyContent: 'space-between',
+      flexDirection: 'column',
       alignItems: 'center',
-      padding: '50px 80px',
-      height: '100vh',
-      backgroundImage: 'url("/bg.png")',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
+      textAlign: 'center',
     }}>
-      <div>
-        <h1 style={{ fontSize: '3.5em', lineHeight: '1.2' }}>
-          THE FUTURE OF<br />DEFI INVESTING<br />IS HERE
-        </h1>
-        <button>Connect Wallet</button>
-      </div>
+      <h1 style={{
+        fontSize: '2.5em',
+        fontWeight: 'bold',
+        color: '#ffffff',
+        marginBottom: '10px'
+      }}>
+        THE FUTURE OF DEFI INVESTING IS HERE
+      </h1>
+      <p style={{ color: '#ccc', fontSize: '1.2em', marginBottom: '20px' }}>
+        Connect your wallet and start earning.
+      </p>
     </div>
   );
 }
